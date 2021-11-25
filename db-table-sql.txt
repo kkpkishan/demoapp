@@ -1,0 +1,10 @@
+
+
+CREATE DATABASE  inventorymanagement;
+
+CREATE TABLE product (
+    product_id int,
+    product_name varchar(255),
+    price varchar(255),
+    quantity varchar(255)
+);

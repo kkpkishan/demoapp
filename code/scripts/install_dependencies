@@ -1,0 +1,12 @@
+#!/bin/bash
+yum install -y httpd
+amazon-linux-extras install -y php7.2
+
+cd /var/www/html
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+yum install php7.0-xml
+php composer.phar install
+php composer.phar require aws/aws-sdk-php
+
