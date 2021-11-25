@@ -11,7 +11,13 @@
             <li>Install Dokcer in your local system</li>
             <li>Clone the repository</li>
             <li>Create a RDS on AWS Account</li>
-            <li>Create a AWS secrests <p> demo</p></li>
+            <li>Create a AWS secrests <p> {
+                                            "host": "RDS Endpoint",
+                                            "username": "admin",
+                                            "password": "password",
+                                            "dbname": "inventorymanagement"
+                                           }
+            </p> </li>
             <li>Edite config.php and add your aws secret name and region</li>
             <li>Build Docker images</li>
             <li>Create AWS ECR and push your docker images</li>
