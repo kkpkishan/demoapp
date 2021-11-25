@@ -5,7 +5,7 @@
     </tr>
     <tr>
         <td width="100%" valign="top">
-           <p>Create a Docker images.</p>
+           <p>AWS Fargate .</p>
            <h6>Create Details</h6>
            <ol>
             <li>Install Dokcer in your local system</li>
